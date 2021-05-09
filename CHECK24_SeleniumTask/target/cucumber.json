@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T00:14:54.536Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user fills in the registration form.",
+        "description": "",
+        "id": "selenium-task;user-fills-in-the-registration-form.",
+        "after": [
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 508000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the check24 Kreditkarten-Vergleich page",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.the_user_is_on_the_check24_Kreditkarten_Vergleich_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should see the cookie \u0027ppset\u003dkreditkarte\u0027 is set in response headers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ppset\u003dkreditkarte\u0027",
+                  "offset": 31
+                }
+              ],
+              "location": "step_definitions.TaskStepDefs.the_user_should_see_the_cookie_is_set_in_response_headers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1460000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on the first listed product",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.the_user_clicks_on_the_first_listed_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2461000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user fills in \u0027taskprepforCHECK24@gmail.com\u0027 as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027taskprepforCHECK24@gmail.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.TaskStepDefs.the_user_fills_in_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on weiter button",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.the_user_clicks_on_weiter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks on als Gast fortfahren radio-button",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.the_user_clicks_on_als_Gast_fortfahren_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks to weiter button below",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.theUserClicksToWeiterButtonBelow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2193000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks on weiter button on registration page",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.theUserClicksOnWeiterButtonOnRegistrationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1224000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "error messages are displayed",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.error_messages_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5957000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user fills in all fields with valid values",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.the_user_fills_in_all_fields_with_valid_values(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Vorname",
+                  "Said"
+                ]
+              },
+              {
+                "cells": [
+                  "Nachname",
+                  "Gokce"
+                ]
+              },
+              {
+                "cells": [
+                  "Geburtsdatum",
+                  "28.08.1993"
+                ]
+              },
+              {
+                "cells": [
+                  "Geburtsort",
+                  "Ulm"
+                ]
+              },
+              {
+                "cells": [
+                  "Familienstand",
+                  "ledig"
+                ]
+              },
+              {
+                "cells": [
+                  "Staatsangehorigkeit",
+                  "Deutschland"
+                ]
+              },
+              {
+                "cells": [
+                  "Postleitzahl",
+                  "89233"
+                ]
+              },
+              {
+                "cells": [
+                  "Strasse",
+                  "leipheimer str."
+                ]
+              },
+              {
+                "cells": [
+                  "Hausnummer",
+                  "44"
+                ]
+              },
+              {
+                "cells": [
+                  "Wohnsituation",
+                  "Eigenheim"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobilnummer",
+                  "01754927822"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2112000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks on weiter button on registration page",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.theUserClicksOnWeiterButtonOnRegistrationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "registration success message is displayed",
+            "match": {
+              "location": "step_definitions.TaskStepDefs.registration_success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Selenium Task",
+    "description": "",
+    "id": "selenium-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/task.feature",
+    "tags": []
+  }
+]
